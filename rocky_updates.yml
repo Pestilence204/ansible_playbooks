@@ -1,7 +1,0 @@
-name: Rocky Linux Server Updates
-hosts: rocky_servers
-tasks:
-  name: Rocky Linux dnf updates
-  dnf:
-    name: "*"
-    state: latest
