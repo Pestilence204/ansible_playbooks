@@ -1,5 +1,5 @@
 - name: Rocky Linux Server Updates
-  hosts: rocky_servers
+  hosts: all
   tasks:
   - name: Rocky Linux dnf updates
     dnf:
