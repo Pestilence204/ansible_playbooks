@@ -1,0 +1,6 @@
+name: Ubuntu Server Updates
+hosts: ubuntu_servers
+tasks:
+  name: Ubuntu apt updates
+  apt:
+    upgrade: full
