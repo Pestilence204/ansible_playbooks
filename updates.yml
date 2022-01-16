@@ -1,0 +1,12 @@
+name: Server Updates
+hosts: rocky_servers
+tasks:
+  name: Rocky Linux dnf updates
+  dnf:
+    name: "*"
+    state: latest
+hosts: ubuntu_servers
+tasks:
+  name: Ubuntu apt updates
+  apt:
+    upgrade: full
