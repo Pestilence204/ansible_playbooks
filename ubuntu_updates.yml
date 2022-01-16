@@ -1,5 +1,5 @@
 - name: Ubuntu Server Updates
-  hosts: ubuntu_servers
+  hosts: all
   tasks:
   - name: Ubuntu apt updates
     apt:
